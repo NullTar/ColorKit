@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension Color {
+public extension Color {
     /// 将十六进制颜色字符串转换为 SwiftUI Color
     ///
     /// 支持带有或不带 `#` 前缀的十六进制颜色格式

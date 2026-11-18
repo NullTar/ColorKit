@@ -12,7 +12,7 @@ import SwiftUI
 /// `Colour` 存储色彩组件、色彩空间信息和alpha值, 允许对颜色进行编码和解码
 ///
 /// 使用 `Color.toColour` 将 SwiftUI `Color` 转换为 `Colour`
-struct Colour: Codable, Hashable, Equatable {
+public struct Colour: Codable, Hashable, Equatable {
     /// 从底层提取的颜色组件值 `CGColor`
     private var components: [CGFloat]
 
@@ -42,7 +42,7 @@ struct Colour: Codable, Hashable, Equatable {
     }
 }
 
-extension Colour {
+public extension Colour {
     /// 将存储的颜色表示转换为SwiftUI `Color`.
     ///
     /// 该转换是基于存储的颜色分量的数量和原始颜色空间信息
@@ -84,7 +84,7 @@ extension Colour {
     }
 }
 
-extension Color {
+public extension Color {
     /// 将 SwiftUI Color 转换为 Colour 类型
     ///
     /// 通过当前颜色创建对应的 Colour 实例

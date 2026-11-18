@@ -69,7 +69,7 @@ extension Color {
     }
 }
 
-extension Color {
+public extension Color {
     // MARK: - Color.inverted
 
     /// 返回反转后的颜色，同时保留原始透明度
@@ -109,7 +109,7 @@ extension Color {
     }
 }
 
-extension Color {
+public extension Color {
     // MARK: - Color.complementary
 
     /// 返回当前颜色的互补色
