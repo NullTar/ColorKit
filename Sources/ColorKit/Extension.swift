@@ -8,17 +8,6 @@
 import SwiftUI
 
 extension Color {
-    /// 将 SwiftUI Color 转换为 Colour 类型
-    ///
-    /// 通过当前颜色创建对应的 Colour 实例
-    ///
-    /// - Returns: 转换后的 Colour 实例
-    func toColour() -> Colour {
-        return Colour(from: self)
-    }
-}
-
-extension Color {
     // MARK: - Private
 
     /// 获取当前颜色的 RGB 分量。
