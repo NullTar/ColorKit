@@ -4,23 +4,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "CodableColor",
+    name: "ColorKit",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "CodableColor",
-            targets: ["CodableColor"]
+            name: "ColorKit",
+            targets: ["ColorKit"]
         ),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "CodableColor",
+            name: "ColorKit",
             swiftSettings: [
                 .enableUpcomingFeature("ApproachableConcurrency"),
-            ],
+            ]
         ),
-
     ]
 )
