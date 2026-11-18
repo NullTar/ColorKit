@@ -1,6 +1,6 @@
 //
 //  Colour.swift
-//  ApplePaint
+//  ColorKit
 //
 //  Created by NullSilck on 2025/9/22.
 //

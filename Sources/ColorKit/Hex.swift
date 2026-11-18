@@ -1,6 +1,6 @@
 //
 //  Hex.swift
-//  RidePlay
+//  ColorKit
 //
 //  Created by NullSilck on 2026/11/18.
 //
